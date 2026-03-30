@@ -1,0 +1,10 @@
+django==6.0.2
+djangorestframework
+django-cors-headers
+requests
+fastapi
+uvicorn
+pydantic
+transformers
+torch
+deep-translator
