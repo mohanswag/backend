@@ -25,7 +25,9 @@ SECRET_KEY = 'django-insecure-2roahx5m)cr4my#l__hu-(&71*u4o_y%%af3m5a^mkyl5)cmgj
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['blizzardly-lynna-unparking.ngrok-free.dev', 'localhost', '127.0.0.1']
+ALLOWED_HOSTS = ['180.235.121.245', 'localhost', '127.0.0.1', '*']
+
+CSRF_TRUSTED_ORIGINS = ['http://180.235.121.245:8023']
 
 
 # Application definition
